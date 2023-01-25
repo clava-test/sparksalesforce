@@ -19,9 +19,9 @@ libraryDependencies ++= Seq(
 
 parallelExecution in Test := false
 
-resolvers += Resolver.url("artifactory", url("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases"))(Resolver.ivyStylePatterns)
+resolvers += Resolver.url("artifactory", url("https://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases"))(Resolver.ivyStylePatterns)
 
-resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
+resolvers += "Typesafe Repository" at "https://repo.typesafe.com/typesafe/releases/"
 
 resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/"
 
@@ -53,7 +53,7 @@ spDescription := """Spark Salesforce Wave Connector
                     | - Constructs Salesforce Wave dataset's metadata using schema present in dataframe
                     | - Can use custom metadata for constructing Salesforce Wave dataset's metadata""".stripMargin
 
-// licenses += "Apache-2.0" -> url("http://opensource.org/licenses/Apache-2.0")
+// licenses += "Apache-2.0" -> url("https://opensource.org/licenses/Apache-2.0")
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 
@@ -70,7 +70,7 @@ pomExtra := (
     <licenses>
       <license>
         <name>Apache License, Verision 2.0</name>
-        <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+        <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
         <distribution>repo</distribution>
       </license>
     </licenses>
@@ -83,8 +83,13 @@ pomExtra := (
       <developer>
         <id>springml</id>
         <name>Springml</name>
-        <url>http://www.springml.com</url>
+        <url>https://www.springml.com</url>
       </developer>
     </developers>)
 
-
+assemblyMergeStrategy in assembly <<= (assemblyMergeStrategy in assembly) {
+  (old) => {
+    case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+    case x => MergeStrategy.first
+  }
+}
