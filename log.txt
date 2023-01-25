@@ -1,0 +1,161 @@
+[0m[[0minfo[0m] [0mLoading project definition from /mnt/c/Users/alexm/Desktop/spark-salesforce/project[0m
+[0m[[0minfo[0m] [0mSet current project to spark-salesforce (in build file:/mnt/c/Users/alexm/Desktop/spark-salesforce/)[0m
+[0m[[33mwarn[0m] [0mCredentials file /home/greenee111/.ivy2/.credentials does not exist[0m
+[0m[[33mwarn[0m] [0mMultiple main classes detected.  Run 'show discoveredMainClasses' to see the list[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-codec-1.9.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: antlr-runtime-3.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-annotations-2.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: log4j-1.2.17.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-module-jaxb-annotations-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: httpclient-4.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: ST4-4.0.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-beanutils-1.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: salesforce-wave-api-1.0.10.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-core-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: stringtemplate-3.2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: stax2-api-3.1.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-logging-1.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: force-wsc-40.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-io-2.5.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-core-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: antlr-2.7.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: stax-api-1.0-2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-dataformat-xml-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: woodstox-core-asl-4.4.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: objenesis-2.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: httpcore-4.4.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: commons-lang3-3.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: mockito-core-2.0.31-beta.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jackson-databind-2.4.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: force-partner-api-40.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: byte-buddy-0.6.14.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scala-library-2.12.10.jar[0m
+12Android2017-08-04T16:45:3012Android2017-08-04 16:45:30.012Android12AndroidinferedSchema  : StructType(StructField(count,IntegerType,true), StructField(device_type,StringType,true), StructField(created_date,TimestampType,true))Count field Data Type IntegerTypeDevice Type field Data Type StringTypeCreated Date field Data Type TimestampType12Android2017-08-04T16:45:3012Android2017-08-04T16:45:3012Android12Android[0m[[0minfo[0m] [0m[32mTestDatasetRelation:[0m[0m
+[0m[[0minfo[0m] [0m[32m- test read without schema[0m[0m
+[0m[[0minfo[0m] [0m[32m- test read with schema[0m[0m
+[0m[[0minfo[0m] [0m[32m- test queryMore[0m[0m
+[0m[[0minfo[0m] [0m[32m- test read using soql without schema[0m[0m
+[0m[[0minfo[0m] [0m[32m- test read using soql with schema[0m[0m
+[0m[[0minfo[0m] [0m[32m- test infer schema[0m[0m
+[0m[[0minfo[0m] [0m[32m- test replace dataset name[0m[0m
+[0m[[0minfo[0m] [0m[32m- test replace dataset name for multiple load stmts[0m[0m
+[0m[[0minfo[0m] [0m[32m- test replace dataset name for multiple load stmts of same dataset[0m[0m
+[0m[[0minfo[0m] [0m[32m- test replace dataset name for multiple load stmts of different dataset[0m[0m
+[0m[[0minfo[0m] [0m[32m- test should not replace dataset name[0m[0m
+[0m[[0minfo[0m] [0m[32m- test should replace dataset name[0m[0m
+[0m[[0minfo[0m] [0m[32m- test replace dataset name with invalid datasetName[0m[0m
+[0m[[0minfo[0m] [0m[32m- queryAll false[0m[0m
+[0m[[0minfo[0m] [0m[32m- queryAll true[0m[0m
+[0m[[0minfo[0m] [0m[32mTestSFObjectWriter:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Write Object to Salesforce[0m[0m
+[0m[[0minfo[0m] [0m[32mTestUtils:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test Metadata Configuration[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test Custom Metadata Configuration[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test Custom Metadata Configuration with new datatype[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test repartition for in memory RDD[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test repartition for local CSV file with size less than 10 MB[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test repartition for local CSV file with size > 10 MB and < 20 MB[0m[0m
+[0m[[0minfo[0m] [0m[32m- Check whether CSV Header constructed properly[0m[0m
+[0m[[0minfo[0m] [0m[32m- retry with expoential backoff[0m[0m
+[0m[[0minfo[0m] [0m[32mTestMetadataConstructor:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test Metadata generation[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test Metadata generation With Custom MetadataConfig[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 25 seconds, 353 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 26[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 26, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/ASL2.0' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/DEPENDENCIES' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/INDEX.LIST' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_commons-beanutils-1.7.0.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_commons-codec-1.9.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_commons-io-2.5.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_commons-lang3-3.4.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_commons-logging-1.2.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_httpclient-4.5' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_httpcore-4.4.1' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_jackson-annotations-2.4.0' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_jackson-core-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_jackson-core-asl-1.9.13' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_jackson-databind-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_jackson-dataformat-xml-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_jackson-mapper-asl-1.9.13' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_jackson-module-jaxb-annotations-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_log4j-1.2.17' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_objenesis-2.1' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/LICENSE_woodstox-core-asl-4.4.0' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_commons-beanutils-1.7.0.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_commons-codec-1.9.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_commons-io-2.5.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_commons-lang3-3.4.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_commons-logging-1.2.txt' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_httpclient-4.5' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_httpcore-4.4.1' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_jackson-core-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_jackson-core-asl-1.9.13' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_jackson-databind-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_jackson-dataformat-xml-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_jackson-mapper-asl-1.9.13' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_jackson-module-jaxb-annotations-2.4.4' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_log4j-1.2.17' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_objenesis-2.1' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/NOTICE_woodstox-core-asl-4.4.0' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.force.api/force-partner-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.force.api/force-partner-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.force.api/force-wsc/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.force.api/force-wsc/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.springml/salesforce-wave-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/com.springml/salesforce-wave-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-io/commons-io/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-io/commons-io/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-logging/commons-logging/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/commons-logging/commons-logging/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/log4j/log4j/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/log4j/log4j/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.bytebuddy/byte-buddy/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/net.bytebuddy/byte-buddy/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/ST4/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/ST4/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/antlr-runtime/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/antlr-runtime/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/stringtemplate/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.antlr/stringtemplate/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-lang3/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.commons/commons-lang3/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.codehaus.woodstox/stax2-api/pom.properties' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/maven/org.codehaus.woodstox/stax2-api/pom.xml' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/com.fasterxml.jackson.core.JsonFactory' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/com.fasterxml.jackson.core.ObjectCodec' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/com.fasterxml.jackson.databind.Module' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/javax.xml.stream.XMLEventFactory' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/javax.xml.stream.XMLInputFactory' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/javax.xml.stream.XMLOutputFactory' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.dtd' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.relaxng' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.w3c' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mStrategy 'discard' was applied to 88 files[0m
+[0m[[0minfo[0m] [0mAssembly up to date: /mnt/c/Users/alexm/Desktop/spark-salesforce/target/scala-2.12/spark-salesforce-assembly-1.1.3.jar[0m
+[0m[[32msuccess[0m] [0mTotal time: 46 s, completed Jan 25, 2023 3:29:33 PM[0m
